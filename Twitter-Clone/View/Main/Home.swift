@@ -79,6 +79,21 @@ struct Home: View {
                         }
                         .tag(3)
                 }
+                
+                VStack {
+                    Button {
+                        
+                    } label: {
+                        Image("tweet")
+                            .renderingMode(.template)
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                            .padding()
+                            .background(Color("bg"))
+                            .foregroundColor(.white)
+                            .clipShape(Circle())
+                    }
+                }
             }
         }
     }
