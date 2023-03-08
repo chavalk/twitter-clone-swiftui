@@ -9,6 +9,8 @@ import SwiftUI
 
 struct MultilineTextField: UIViewRepresentable {
     
+    @Binding var text: String
+    
     func makeUIView(context: Context) -> some UITextView {
         let text = UITextView()
         text.isEditable = true
