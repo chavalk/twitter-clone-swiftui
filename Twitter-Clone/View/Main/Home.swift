@@ -10,6 +10,7 @@ import SwiftUI
 struct Home: View {
     
     @State var selectedIndex = 0
+    @State var showCreateTweet = false
     
     var body: some View {
         VStack {
@@ -89,7 +90,7 @@ struct Home: View {
                         Spacer()
                         
                         Button {
-                            
+                            self.showCreateTweet.toggle()
                         } label: {
                             Image("tweet")
                                 .renderingMode(.template)
