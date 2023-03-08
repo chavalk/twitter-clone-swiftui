@@ -31,7 +31,7 @@ struct TweetCellView: View {
                             .foregroundColor(.gray)
                     )
                     
-                    Text(sampleText)
+                    Text(tweet)
                         .frame(maxHeight: 100, alignment: .top)
                 }
             }
@@ -41,7 +41,7 @@ struct TweetCellView: View {
 
 struct TweetCellView_Previews: PreviewProvider {
     static var previews: some View {
-        TweetCellView()
+        TweetCellView(tweet: sampleText)
     }
 }
 
