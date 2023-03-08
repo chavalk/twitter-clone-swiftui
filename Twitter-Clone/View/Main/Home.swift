@@ -106,6 +106,9 @@ struct Home: View {
                 }
                 .padding(.bottom, 65)
             }
+            .sheet(isPresented: $showCreateTweet) {
+                CreateTweetView(text: <#T##String#>)
+            }
         }
     }
 }
