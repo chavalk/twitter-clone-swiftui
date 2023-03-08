@@ -20,7 +20,14 @@ struct Home: View {
                             self.selectedIndex = 0
                         }
                         .tabItem {
-                            Image("Home")
+                            if (selectedIndex == 0) {
+                                Image("Home")
+                                    .renderingMode(.template)
+                                    .foregroundColor(Color("bg"))
+                            }
+                            else {
+                                Image("Home")
+                            }
                         }
                     
                     SearchView()
@@ -28,7 +35,14 @@ struct Home: View {
                             self.selectedIndex = 1
                         }
                         .tabItem {
-                            Image("Search")
+                            if (selectedIndex != 1) {
+                                Image("Search")
+                                    .renderingMode(.template)
+                                    .foregroundColor(Color("bg"))
+                            }
+                            else {
+                                Image("Search")
+                            }
                         }
                     
                     NotificationsView()
@@ -36,7 +50,14 @@ struct Home: View {
                             self.selectedIndex = 2
                         }
                         .tabItem {
-                            Image("Notifications")
+                            if (selectedIndex != 2) {
+                                Image("Notifications")
+                                    .renderingMode(.template)
+                                    .foregroundColor(Color("bg"))
+                            }
+                            else {
+                                Image("Notifications")
+                            }
                         }
                     
                     MessagesView()
@@ -44,7 +65,14 @@ struct Home: View {
                             self.selectedIndex = 3
                         }
                         .tabItem {
-                            Image("Messages")
+                            if (selectedIndex != 3) {
+                                Image("Messages")
+                                    .renderingMode(.template)
+                                    .foregroundColor(Color("bg"))
+                            }
+                            else {
+                                Image("Messages")
+                            }
                         }
                 }
             }
