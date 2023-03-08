@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct CreateTweetView: View {
+    
+    @State var text = ""
+    
     var body: some View {
         VStack {
             HStack {
@@ -29,6 +32,8 @@ struct CreateTweetView: View {
                 .foregroundColor(.white)
                 .clipShape(Capsule())
             }
+            
+            MultilineTextField(text: $text)
         }
         .padding()
     }
