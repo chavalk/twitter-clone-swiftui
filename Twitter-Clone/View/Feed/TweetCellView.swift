@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct TweetCellView: View {
+    
+    var tweet: String
+    var tweetImage: String?
+    
     var body: some View {
         VStack {
             HStack(alignment: .top, spacing: 10) {
