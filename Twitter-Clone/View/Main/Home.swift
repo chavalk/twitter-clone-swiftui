@@ -29,6 +29,7 @@ struct Home: View {
                                 Image("Home")
                             }
                         }
+                        .tag(0)
                     
                     SearchView()
                         .onTapGesture {
@@ -44,6 +45,7 @@ struct Home: View {
                                 Image("Search")
                             }
                         }
+                        .tag(1)
                     
                     NotificationsView()
                         .onTapGesture {
@@ -59,6 +61,7 @@ struct Home: View {
                                 Image("Notifications")
                             }
                         }
+                        .tag(2)
                     
                     MessagesView()
                         .onTapGesture {
@@ -74,6 +77,7 @@ struct Home: View {
                                 Image("Messages")
                             }
                         }
+                        .tag(3)
                 }
             }
         }
