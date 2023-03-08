@@ -9,6 +9,10 @@ import SwiftUI
 
 struct MultilineTextField: UIViewRepresentable {
     
+    func makeCoordinator() -> MultilineTextField.Coordinator {
+        return MultilineTextField.Coordinator(parent1: self)
+    }
+    
     @Binding var text: String
     
     func makeUIView(context: Context) -> some UITextView {
@@ -23,5 +27,23 @@ struct MultilineTextField: UIViewRepresentable {
     
     func updateUIView(_ uiView: UIViewType, context: Context) {
         
+    }
+    
+    class Coordinator: NSObject, UITextViewDelegate {
+        
+        var parent: MultilineTextField
+        
+        init(parent1: MultilineTextField) {
+            parent = parent1
+        }
+        
+        func textViewDidBeginEditing(_ textView: UITextView) {
+            textView.text = ""
+            textView.textColor = .black
+        }
+        
+        func textViewDidChange(_ textView: UITextView) {
+            self.parent.text = textView.text
+        }
     }
 }
