@@ -75,6 +75,15 @@
 		BE6204B229B8D557002182BE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BE6204BF29B8D77C002182BE /* Main */,
+				BE6204BE29B8D76D002182BE /* Feed */,
+				BE6204BD29B8D762002182BE /* Search */,
+				BE6204BC29B8D755002182BE /* Notifications */,
+				BE6204BB29B8D74B002182BE /* Messages */,
+				BE6204BA29B8D741002182BE /* Authentication */,
+				BE6204B929B8D737002182BE /* Items */,
+				BE6204B829B8D72E002182BE /* Post */,
+				BE6204B729B8D723002182BE /* Profile */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -105,6 +114,69 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE6204B729B8D723002182BE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BE6204B829B8D72E002182BE /* Post */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		BE6204B929B8D737002182BE /* Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		BE6204BA29B8D741002182BE /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BE6204BB29B8D74B002182BE /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		BE6204BC29B8D755002182BE /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		BE6204BD29B8D762002182BE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BE6204BE29B8D76D002182BE /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		BE6204BF29B8D77C002182BE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
