@@ -16,6 +16,21 @@ struct Home: View {
                         .tabItem {
                             Image("Home")
                         }
+                    
+                    Text("Search")
+                        .tabItem {
+                            Image("Search")
+                        }
+                    
+                    Text("Notifications")
+                        .tabItem {
+                            Image("Notifications")
+                        }
+                    
+                    Text("Messages")
+                        .tabItem {
+                            Image("Messages")
+                        }
                 }
             }
         }
