@@ -18,6 +18,7 @@
 		BE6204C929B8E1E5002182BE /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204C829B8E1E5002182BE /* MessagesView.swift */; };
 		BE6204CB29B8F1E0002182BE /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204CA29B8F1E0002182BE /* CreateTweetView.swift */; };
 		BE6204CD29B8F48C002182BE /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204CC29B8F48C002182BE /* MultilineTextField.swift */; };
+		BE6204CF29B8FFAD002182BE /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204CE29B8FFAD002182BE /* TweetCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		BE6204C829B8E1E5002182BE /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		BE6204CA29B8F1E0002182BE /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		BE6204CC29B8F48C002182BE /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+		BE6204CE29B8FFAD002182BE /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				BE6204C229B8E1A6002182BE /* Feed.swift */,
+				BE6204CE29B8FFAD002182BE /* TweetCellView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6204CF29B8FFAD002182BE /* TweetCellView.swift in Sources */,
 				BE6204CB29B8F1E0002182BE /* CreateTweetView.swift in Sources */,
 				BE6204C529B8E1BB002182BE /* SearchView.swift in Sources */,
 				BE6204A729B8D2AF002182BE /* ContentView.swift in Sources */,
