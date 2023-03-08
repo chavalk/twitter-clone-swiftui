@@ -11,6 +11,7 @@
 		BE6204A729B8D2AF002182BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204A629B8D2AF002182BE /* ContentView.swift */; };
 		BE6204A929B8D2B1002182BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6204A829B8D2B1002182BE /* Assets.xcassets */; };
 		BE6204AC29B8D2B1002182BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6204AB29B8D2B1002182BE /* Preview Assets.xcassets */; };
+		BE6204C129B8D937002182BE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204C029B8D937002182BE /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BE6204A629B8D2AF002182BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE6204A829B8D2B1002182BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE6204AB29B8D2B1002182BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE6204C029B8D937002182BE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		BE6204BF29B8D77C002182BE /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BE6204C029B8D937002182BE /* Home.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE6204A729B8D2AF002182BE /* ContentView.swift in Sources */,
+				BE6204C129B8D937002182BE /* Home.swift in Sources */,
 				BE6204A529B8D2AF002182BE /* Twitter_CloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
