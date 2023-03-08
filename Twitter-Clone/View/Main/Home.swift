@@ -16,21 +16,33 @@ struct Home: View {
             ZStack{
                 TabView {
                     Feed()
+                        .onTapGesture {
+                            self.selectedIndex = 0
+                        }
                         .tabItem {
                             Image("Home")
                         }
                     
                     SearchView()
+                        .onTapGesture {
+                            self.selectedIndex = 1
+                        }
                         .tabItem {
                             Image("Search")
                         }
                     
                     NotificationsView()
+                        .onTapGesture {
+                            self.selectedIndex = 2
+                        }
                         .tabItem {
                             Image("Notifications")
                         }
                     
                     MessagesView()
+                        .onTapGesture {
+                            self.selectedIndex = 3
+                        }
                         .tabItem {
                             Image("Messages")
                         }
