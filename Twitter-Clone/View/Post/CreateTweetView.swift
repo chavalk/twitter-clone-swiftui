@@ -9,7 +9,28 @@ import SwiftUI
 
 struct CreateTweetView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Button {
+                    
+                } label: {
+                    Text("Cancel")
+                }
+                
+                Spacer()
+                
+                Button {
+                    
+                } label: {
+                    Text("Tweet")
+                        .padding()
+                }
+                .background(Color("bg"))
+                .foregroundColor(.white)
+                .clipShape(Capsule())
+            }
+        }
+        .padding()
     }
 }
 
