@@ -81,19 +81,29 @@ struct Home: View {
                 }
                 
                 VStack {
-                    Button {
+                    
+                    Spacer()
+                    
+                    HStack {
                         
-                    } label: {
-                        Image("tweet")
-                            .renderingMode(.template)
-                            .resizable()
-                            .frame(width: 20, height: 20)
-                            .padding()
-                            .background(Color("bg"))
-                            .foregroundColor(.white)
-                            .clipShape(Circle())
+                        Spacer()
+                        
+                        Button {
+                            
+                        } label: {
+                            Image("tweet")
+                                .renderingMode(.template)
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                                .padding()
+                                .background(Color("bg"))
+                                .foregroundColor(.white)
+                                .clipShape(Circle())
+                        }
                     }
+                    .padding()
                 }
+                .padding(.bottom, 65)
             }
         }
     }
