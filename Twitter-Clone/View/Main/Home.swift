@@ -11,6 +11,7 @@ struct Home: View {
     
     @State var selectedIndex = 0
     @State var showCreateTweet = false
+    @State var text = ""
     
     var body: some View {
         VStack {
@@ -107,7 +108,7 @@ struct Home: View {
                 .padding(.bottom, 65)
             }
             .sheet(isPresented: $showCreateTweet) {
-                CreateTweetView(text: <#T##String#>)
+                CreateTweetView(text: text)
             }
         }
     }
