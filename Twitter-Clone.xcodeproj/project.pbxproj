@@ -16,6 +16,7 @@
 		BE6204C529B8E1BB002182BE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204C429B8E1BB002182BE /* SearchView.swift */; };
 		BE6204C729B8E1D2002182BE /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204C629B8E1D2002182BE /* NotificationsView.swift */; };
 		BE6204C929B8E1E5002182BE /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204C829B8E1E5002182BE /* MessagesView.swift */; };
+		BE6204CB29B8F1E0002182BE /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204CA29B8F1E0002182BE /* CreateTweetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BE6204C429B8E1BB002182BE /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		BE6204C629B8E1D2002182BE /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		BE6204C829B8E1E5002182BE /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		BE6204CA29B8F1E0002182BE /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		BE6204B829B8D72E002182BE /* Post */ = {
 			isa = PBXGroup;
 			children = (
+				BE6204CA29B8F1E0002182BE /* CreateTweetView.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6204CB29B8F1E0002182BE /* CreateTweetView.swift in Sources */,
 				BE6204C529B8E1BB002182BE /* SearchView.swift in Sources */,
 				BE6204A729B8D2AF002182BE /* ContentView.swift in Sources */,
 				BE6204C329B8E1A6002182BE /* Feed.swift in Sources */,
