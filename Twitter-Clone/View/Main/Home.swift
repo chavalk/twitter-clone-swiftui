@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct Home: View {
+    
+    @State var selectedIndex = 0
+    
     var body: some View {
         VStack {
             ZStack{
