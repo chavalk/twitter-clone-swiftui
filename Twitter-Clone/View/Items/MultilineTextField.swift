@@ -22,6 +22,7 @@ struct MultilineTextField: UIViewRepresentable {
         text.isUserInteractionEnabled = true
         text.textColor = .gray
         text.font = .systemFont(ofSize: 20)
+        text.delegate = context.coordinator
         return text
     }
     
