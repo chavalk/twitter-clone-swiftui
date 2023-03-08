@@ -51,6 +51,11 @@
 		BE6204A329B8D2AF002182BE /* Twitter-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				BE6204B629B8D5B5002182BE /* Extensions */,
+				BE6204B529B8D5A3002182BE /* Services */,
+				BE6204B429B8D599002182BE /* Model */,
+				BE6204B329B8D57E002182BE /* ViewModel */,
+				BE6204B229B8D557002182BE /* View */,
 				BE6204A429B8D2AF002182BE /* Twitter_CloneApp.swift */,
 				BE6204A629B8D2AF002182BE /* ContentView.swift */,
 				BE6204A829B8D2B1002182BE /* Assets.xcassets */,
@@ -65,6 +70,41 @@
 				BE6204AB29B8D2B1002182BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE6204B229B8D557002182BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE6204B329B8D57E002182BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BE6204B429B8D599002182BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE6204B529B8D5A3002182BE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BE6204B629B8D5B5002182BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
