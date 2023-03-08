@@ -17,6 +17,7 @@
 		BE6204C729B8E1D2002182BE /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204C629B8E1D2002182BE /* NotificationsView.swift */; };
 		BE6204C929B8E1E5002182BE /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204C829B8E1E5002182BE /* MessagesView.swift */; };
 		BE6204CB29B8F1E0002182BE /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204CA29B8F1E0002182BE /* CreateTweetView.swift */; };
+		BE6204CD29B8F48C002182BE /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204CC29B8F48C002182BE /* MultilineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BE6204C629B8E1D2002182BE /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		BE6204C829B8E1E5002182BE /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		BE6204CA29B8F1E0002182BE /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
+		BE6204CC29B8F48C002182BE /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		BE6204B929B8D737002182BE /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				BE6204CC29B8F48C002182BE /* MultilineTextField.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				BE6204C329B8E1A6002182BE /* Feed.swift in Sources */,
 				BE6204C129B8D937002182BE /* Home.swift in Sources */,
 				BE6204C929B8E1E5002182BE /* MessagesView.swift in Sources */,
+				BE6204CD29B8F48C002182BE /* MultilineTextField.swift in Sources */,
 				BE6204A529B8D2AF002182BE /* Twitter_CloneApp.swift in Sources */,
 				BE6204C729B8E1D2002182BE /* NotificationsView.swift in Sources */,
 			);
