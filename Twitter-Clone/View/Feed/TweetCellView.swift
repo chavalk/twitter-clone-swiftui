@@ -42,6 +42,7 @@ struct TweetCellView: View {
                                 .frame(width: proxy.frame(in: .global).width, height: 250)
                                 .cornerRadius(15)
                         }
+                        .frame(height: 250)
                     }
                 }
             }
