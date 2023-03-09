@@ -45,6 +45,47 @@ struct TweetCellView: View {
                     }
                 }
             }
+            
+            // Cell Bottom
+            
+            HStack(spacing: 50) {
+                Button {
+                    
+                } label: {
+                    Image("Comments")
+                        .resizable()
+                        .frame(width: 16, height: 16)
+                }
+                .foregroundColor(.gray)
+
+                Button {
+                    
+                } label: {
+                    Image("Retweet")
+                        .resizable()
+                        .frame(width: 16, height: 16)
+                }
+                .foregroundColor(.gray)
+
+                Button {
+                    
+                } label: {
+                    Image("love")
+                        .resizable()
+                        .frame(width: 16, height: 16)
+                }
+                .foregroundColor(.gray)
+
+                Button {
+                    
+                } label: {
+                    Image("upload")
+                        .resizable()
+                        .frame(width: 16, height: 16)
+                }
+                .foregroundColor(.gray)
+            }
+            .padding(.top, 4)
         }
     }
 }
