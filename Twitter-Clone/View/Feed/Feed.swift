@@ -21,6 +21,9 @@ struct Feed: View {
                     Divider()
                 }
             }
+            .padding(.top)
+            .padding(.horizontal)
+            .zIndex(0)
         }
     }
 }
