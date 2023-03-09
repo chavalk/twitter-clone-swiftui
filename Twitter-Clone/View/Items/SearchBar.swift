@@ -14,6 +14,19 @@ struct SearchBar: View {
     var body: some View {
         HStack {
             TextField("Search Twitter", text: $text)
+                .padding(8)
+                .padding(.horizontal, 24)
+                .background(Color(.systemGray6))
+                .cornerRadius(20)
+                .overlay(
+                    
+                    HStack {
+                        Image(systemName: "magnifyingglass")
+                            .foregroundColor(.gray)
+                            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 8)
+                    }
+                )
         }
     }
 }
