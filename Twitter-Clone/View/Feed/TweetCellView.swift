@@ -33,6 +33,16 @@ struct TweetCellView: View {
                     
                     Text(tweet)
                         .frame(maxHeight: 100, alignment: .top)
+                    
+                    if let image = tweetImage {
+                        GeometryReader { proxy in
+                            Image(image)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: proxy.frame(in: .global).width, height: 250)
+                                .cornerRadius(15)
+                        }
+                    }
                 }
             }
         }
