@@ -9,7 +9,13 @@ import SwiftUI
 
 struct SearchView: View {
     var body: some View {
-        Text("Search")
+        VStack {
+            
+            List(0..<9) { i in
+                
+                SearchCell(tag: "Hello", tweets: String(i))
+            }
+        }
     }
 }
 
