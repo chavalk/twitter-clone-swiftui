@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE03E49E29BA363C00F1842C /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E49D29BA363C00F1842C /* SearchUserCell.swift */; };
 		BE6204A529B8D2AF002182BE /* Twitter_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204A429B8D2AF002182BE /* Twitter_CloneApp.swift */; };
 		BE6204A729B8D2AF002182BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204A629B8D2AF002182BE /* ContentView.swift */; };
 		BE6204A929B8D2B1002182BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6204A829B8D2B1002182BE /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE03E49D29BA363C00F1842C /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
 		BE6204A129B8D2AF002182BE /* Twitter-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6204A429B8D2AF002182BE /* Twitter_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_CloneApp.swift; sourceTree = "<group>"; };
 		BE6204A629B8D2AF002182BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			children = (
 				BE6204C429B8E1BB002182BE /* SearchView.swift */,
 				BE6204D029B98947002182BE /* SearchCell.swift */,
+				BE03E49D29BA363C00F1842C /* SearchUserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				BE6204D129B98947002182BE /* SearchCell.swift in Sources */,
 				BE6204CB29B8F1E0002182BE /* CreateTweetView.swift in Sources */,
 				BE6204C529B8E1BB002182BE /* SearchView.swift in Sources */,
+				BE03E49E29BA363C00F1842C /* SearchUserCell.swift in Sources */,
 				BE6204A729B8D2AF002182BE /* ContentView.swift in Sources */,
 				BE6204D329B98E6F002182BE /* SearchBar.swift in Sources */,
 				BE6204C329B8E1A6002182BE /* Feed.swift in Sources */,
