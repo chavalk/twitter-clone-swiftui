@@ -16,7 +16,7 @@ struct SearchCell: View {
         VStack(alignment: .leading, spacing: 5) {
             Text("hello")
                 .fontWeight(.heavy)
-            Text("hello")
+            Text(tweets + " Tweets").fontWeight(.light)
         }
     }
 }
