@@ -28,6 +28,18 @@ struct SearchBar: View {
                             .padding(.leading, 8)
                     }
                 )
+            
+            Button {
+                isEditing = false
+                text = ""
+            } label: {
+                Text("Cancel")
+                    .foregroundColor(.black)
+                    .padding(.trailing, 8)
+                    .transition(.move(edge: .trailing))
+                    .animation(.default)
+            }
+
         }
         .onTapGesture {
             isEditing = true
