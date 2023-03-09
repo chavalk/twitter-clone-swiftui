@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE03E49E29BA363C00F1842C /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E49D29BA363C00F1842C /* SearchUserCell.swift */; };
+		BE03E4A029BA4F9400F1842C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE03E49F29BA4F9400F1842C /* Extensions.swift */; };
 		BE6204A529B8D2AF002182BE /* Twitter_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204A429B8D2AF002182BE /* Twitter_CloneApp.swift */; };
 		BE6204A729B8D2AF002182BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6204A629B8D2AF002182BE /* ContentView.swift */; };
 		BE6204A929B8D2B1002182BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6204A829B8D2B1002182BE /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		BE03E49D29BA363C00F1842C /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
+		BE03E49F29BA4F9400F1842C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BE6204A129B8D2AF002182BE /* Twitter-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6204A429B8D2AF002182BE /* Twitter_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_CloneApp.swift; sourceTree = "<group>"; };
 		BE6204A629B8D2AF002182BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		BE6204B629B8D5B5002182BE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BE03E49F29BA4F9400F1842C /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				BE6204CD29B8F48C002182BE /* MultilineTextField.swift in Sources */,
 				BE6204A529B8D2AF002182BE /* Twitter_CloneApp.swift in Sources */,
 				BE6204C729B8E1D2002182BE /* NotificationsView.swift in Sources */,
+				BE03E4A029BA4F9400F1842C /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
