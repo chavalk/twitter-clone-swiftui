@@ -29,6 +29,9 @@ struct SearchBar: View {
                     }
                 )
         }
+        .onTapGesture {
+            isEditing = true
+        }
     }
 }
 
