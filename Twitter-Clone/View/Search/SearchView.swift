@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct SearchView: View {
+    
+    @State var text = ""
+    @State var isEditing = false
+    
     var body: some View {
         VStack {
             
