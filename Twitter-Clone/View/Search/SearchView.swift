@@ -15,6 +15,9 @@ struct SearchView: View {
     var body: some View {
         VStack {
             
+            SearchBar(text: $text, isEditing: $isEditing)
+                .padding(.horizontal)
+            
             List(0..<9) { i in
                 
                 SearchCell(tag: "Hello", tweets: String(i))
